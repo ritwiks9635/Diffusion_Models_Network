@@ -1,6 +1,8 @@
 # Diffusion_Models_Network
 Diffusion Models are generative models, meaning that they are used to generate data similar to the data on which they are trained. Fundamentally, Diffusion Models work by destroying training data through the successive addition of Gaussian noise, and then learning to recover the data by reversing this noising process.
 
+![](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/unCLIP.png)
+
 ##**What are diffusion models used for?**
 Diffusion models are powerful content-based image retrieval techniques that can be applied to image search tasks. Using the reverse diffusion process, the first step in using diffusion models for image search is to encode the images in a latent space.
 
@@ -8,7 +10,12 @@ Diffusion models are a type of generative model that use a two-step training pro
 1. Forward diffusion: The model takes a clear image as input and adds noise to it iteratively.
 2. Reverse diffusion: The model tries to reconstruct the original image from the noisy version. 
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz6Dqs1c2Np93X_O5IR8jP9xQuAj07zIYSbg&usqp=CAU)
+
 **Diffusion process**
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4l-LKWZr3pjIH0ZXq5s7DfHAzTgu_qQG7Sg&usqp=CAU)
+
 The basic idea behind diffusion models is rather simple. They take the input image 
 𝑥
 0
