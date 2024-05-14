@@ -31,3 +31,5 @@ T steps. We will call this the forward process. Notably, this is unrelated to th
 t<T noise steps).
 
 Afterward, a neural network is trained to recover the original data by reversing the noising process. By being able to model the reverse process, we can generate new data. This is the so-called reverse diffusion process or, in general, the sampling process of a generative model.
+
+![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*0lOt0rRip0nM3BRNZ5NiiA.png)
